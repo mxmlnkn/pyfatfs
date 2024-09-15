@@ -7,8 +7,7 @@ name = "pyfatfs"
 description = "FAT12/FAT16/FAT32 implementation with VFAT support"
 readme = "README.rst"
 requires-python = "~=3.8"
-dependencies = ["fs~=2.4"]
-keywords = ["filesystem", "PyFilesystem2", "FAT12", "FAT16", "FAT32", "VFAT", "LFN"]
+keywords = ["filesystem", "FAT12", "FAT16", "FAT32", "VFAT", "LFN"]
 license = {file = "LICENSE"}
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -32,9 +31,6 @@ Documentation = "https://pyfatfs.readthedocs.io"
 Changelog = "https://github.com/nathanhi/pyfatfs/blob/master/CHANGELOG.rst"
 Issues = "https://github.com/nathanhi/pyfatfs/issues"
 Source = "https://github.com/nathanhi/pyfatfs"
-
-[project.entry-points."fs.opener"]
-fat = "pyfatfs.PyFatFSOpener:PyFatFSOpener"
 
 [project.optional-dependencies]
 development = [
